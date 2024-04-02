@@ -86,7 +86,10 @@ export default function UploadFile() {
                 <button className="btn">Upload Manifest</button>
 
             </div>
-            <UploadProgress progress={progress} fileName={fileName} fileInfo={fileInfo}/>
+            {
+                progress > 0 ? <UploadProgress progress={progress} fileName={fileName} fileInfo={fileInfo}/>
+                : null
+            }
         </>
     );
 }
