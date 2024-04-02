@@ -1,5 +1,6 @@
 import './App.css';
 import CloseButton from './components/CloseButton';
+import FormAction from './components/FormAction';
 import UploadLeft from './components/UploadLeft';
 import UploadRight from './components/UploadRight';
 
@@ -15,6 +16,7 @@ function App() {
               <UploadLeft />
               <UploadRight />
             </div>
+            <FormAction />
           </form>
         </div>
       </div>
